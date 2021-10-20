@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/datepicker.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../style.css">
+<title>WeCare Hospital</title>
+
+  </head>
+
+    <body>
+
+      <!--nav bar-->
+<nav class="navbar navbar-expand-lg nav-back fixed-top" id="nav">
+  <div class="container">
+      <a href="../index.html" class="navbar-brand">Medical</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button"
+      data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-syringe fa-2x"></i>
+  </button>
+     
+      <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a href="../Services.html" class="nav-link">Services</a>
+              </li>
+  
+              <li class="nav-item">
+                  <a href="../about.html" class="nav-link">About</a>
+                              </li>
+              
+              <li class="nav-item">
+                  <a href="../Medical_Camp.html" class="nav-link">Medical Camp</a>
+              </li>
+  
+              <li class="nav-item">
+                  <a href="../Team.html" class="nav-link">Team</a>
+              </li>
+  
+              <li class="nav-item">
+                  <a href="Booking.html" class="nav-link">Appointment</a>
+              </li>
+  
+              <li class="nav-item">
+                  <a href="../ContactUs.html" class="nav-link">Contact</a>
+              </li>
+              
+            <button type="button" id="login" class="btn btn-outline-dark"><a href="loginpage.html">Login/SignUp</a></button>
+
+          </ul>
+      </div>
+  </div>
+  </nav>
+  <!--End of nav bar-->
+<!--Booking Appointment-->
+      <div class="inner-layer">
+          <div class="container">
+            <div class="row no-margin">
+                <div class="col-sm-7">
+                    <div class="content">
+                        <h1>Book Your Appointment Now and Save your time</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis at lacus at rhoncus. Integer pharetra lacus vitae sapien blandit eleifend. </p>
+                        <h2>For Help Call : +91 8810597608</h2>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="form-data">
+                        <div class="form-head">
+                            <h2>Book Appointemnt</h2>
+                        </div>
+                        <div class="form-body">
+                            <div class="row form-row">
+                              <input type="text" placeholder="Enter Full name" class="form-control">
+                            </div>
+                            <div class="row form-row">
+                              <input type="text" placeholder="Enter Mobile Number" class="form-control">
+                            </div>
+                             <div class="row form-row">
+                              <input type="text" placeholder="Enter Email Adreess" class="form-control">
+                            </div>
+                           <div class="row form-row">
+                              <input id="dat" type="text" placeholder="Appointment Date" class="form-control">
+                            </div>
+                            
+                            <h6>Address Details</h6>
+
+                             <div class="row form-row">
+                                <div class="col-sm-6">
+                                   <input type="text" placeholder="Enter Area" class="form-control">
+                                </div>
+                                <div class="col-sm-6">
+                                   <input type="text" placeholder="Enter City" class="form-control">
+                                </div>
+                            </div>
+                             <div class="row form-row">
+                                <div class="col-sm-6">
+                                   <input type="text" placeholder="Enter State" class="form-control">
+                                </div>
+                                <div class="col-sm-6">
+                                   <input type="text" placeholder="Postal Code" class="form-control">
+                                </div>
+                            </div>
+
+                             <div class="row form-row">
+                               <button class="btn btn-success btn-appointment">
+                                 Book Appointment
+                               </button>
+                               
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      <!--End of Booking Appointment-->
+    </body>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.js"></script>
+
+    <script>
+      $(document).ready(function(){
+          $("#dat").datepicker();
+      })
+    </script>
+    
+    
+  
+</html>

@@ -1,0 +1,442 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.nav-back{
+    background: rgba(17, 219, 207,0.8);
+    
+}
+.navbar-brand{
+    color:black;
+}
+.navbar-brand:hover{
+    color:white;
+    font-weight: bold;
+}
+.nav-link{
+    color:black;
+}
+.nav-link:hover{
+    color:white;
+}
+.navbar-toggler{
+    outline:none!important;
+}
+/*Hero section*/
+
+#hero{
+    width: 100%;
+    height: 90vh;
+    background: url("./image/doc1.jpg")center;
+    background-size: cover;
+}
+#hero .container{
+    padding-top: 200px;
+}
+#hero:before{
+    content: "";
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90vh;
+
+}
+#hero h1{
+    margin: 0 0 10px 0;
+    font-size:48px;
+    font-weight: bold;
+    line-height: 56px;
+    color:white;
+}
+#hero h2{
+    color:white;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: light;
+    letter-spacing: 0.5px;
+}
+.main-btn{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding:8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border:2px solid #fff;
+    color:#fff;
+    text-decoration: none;
+
+}
+.main-btn:hover{
+    background: rgba(17, 219, 207,0.8);
+    border: 2px solid #11dbcf;
+    text-decoration:none;
+    color:#fff;
+}
+
+
+
+#hero2{
+    width: 100%;
+    height: 90vh;
+    background: url("./image/ser4.jpg")center;
+    background-size: cover;
+}
+#hero2 .container{
+    padding-top: 200px;
+}
+#hero2:before{
+    content: "";
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90vh;
+
+}
+#hero2 h1{
+    margin: 0 0 10px 0;
+    font-size:48px;
+    font-weight: bold;
+    line-height: 56px;
+    color:white;
+}
+#hero2 h2{
+    color:white;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: light;
+    letter-spacing: 0.5px;
+}
+.main-btn{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding:8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border:2px solid #fff;
+    color:#fff;
+    text-decoration: none;
+
+}
+.main-btn:hover{
+    background: rgba(17, 219, 207,0.8);
+    border: 2px solid #11dbcf;
+    text-decoration:none;
+    color:#fff;
+}
+/*Services*/
+.service{
+    text-align:center;
+    padding:70px 20px 80px 20px;
+    background:rgba(17, 219, 207,0.8);
+    }
+.service .icon{
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background:#fff;
+    border-radius: 50px;
+
+}
+.service .icon i{
+    font-size: 32px;
+    line-height: 1;
+    position: relative;
+    color:rgb(103, 164, 233);
+}
+.service h4{
+    margin: 10px 0 15px 0;
+    font-weight: bold;
+    font-size: 22px;
+   
+}
+.service p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+/*about section*/
+.about-section{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.about-heading{
+    text-transform: uppercase;
+    }
+.about-heading-upper{
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.about-heading-lower{
+    display: block;
+    font-size: 38px;
+    font-weight: lighter;
+}
+.bg-faded{
+    background: rgba(17,219,247,.8);
+}
+.about-button .btn-color{
+    background:#03a59a;
+    color:#fff;
+    font-weight: bold;
+}
+.about-button .btn-color:hover{
+    color:black;
+    background:aqua;
+
+}
+.about{
+    position: relative;
+    }
+
+    @media (min-width:992px){
+        .about .about-img{
+            width: 75%;
+            float: right;
+            
+
+        }
+        .about .about-text{
+            left: 0;
+            width: 60%;
+            margin-top: 7rem;
+            position: absolute;
+        }
+        .about .about-text .about-button{
+            width: 100%;
+            left: 0;
+            position: absolute;
+            bottom: -2rem;
+        }
+    }
+    @media  (min-width:1200px){
+        .about .about-text{
+            width: 45%;
+        }
+    }
+/* End of about section*/
+/*mecial camp section*/
+.camp{
+    background-color: #11dbcf;
+    padding-bottom: 0;
+    }
+    .camp h2{
+        color:#fff;
+        margin-bottom: 25px;
+        text-align: center;
+            }
+.camp-grid{
+    margin-top: 65px;
+    }
+    .camp-grid .row{
+        margin: 0;
+    }
+    .camp-grid .row > div{
+        padding: 0;
+    }
+.camp-grid .row > div .card img{
+    width: 100%;
+    height: 300px;
+    padding-top: 5px;
+    padding-left: 5px;
+    }
+.camp-grid .row > div .card .camp-text{
+    position: absolute;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+
+}
+.camp-grid .row > div .card .camp .camp-text > div{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.camp-grid .row > div .card .camp-text .camp-title{
+    color: #fff;
+    font-size: 30px;
+    
+   
+    
+    }
+.camp-grid .row > div .card .camp-text .card-text{
+    color: #fff;
+    opacity: .75;
+    padding: 0 45PX 50PX 20px;
+   
+}
+.camp-grid .row > div .card:hover .camp-text{
+    opacity: 1;
+     visibility: visible;
+}
+/*End of medical camp section*/
+
+/*Team section*/
+
+.team{
+    background:white;
+    }
+.team .member{
+    position: relative;
+    box-shadow: 1px 2px 15px aqua;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.team .member .image{
+overflow: hidden;
+width: 150px;
+border-radius: 50%;
+margin: 0 auto 20px auto;
+}
+.team .member .image img{
+    transition: ease-in-out 0.3s;
+}
+.team .member:hover img{
+    transform: scale(1.1);
+}
+.team .member h4{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #000;
+}
+.team .member span{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: bold;
+}
+.team .member span:after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: rgb(10, 3, 3);
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%);
+}
+.team .member p{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+.team .social{
+    margin-top: 12px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+}
+.team .social a{
+    transition: ease-in-out .3s;
+    display: flex;
+        align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    background: black;
+    text-decoration: none;
+    margin-left: 8px;
+}
+.team .social i{
+    color: white;
+   }
+ .team .social a:hover{
+     background: #11dbcf;
+ }   
+
+/*End of Team section*/
+/*Contact Form*/
+.contact-box{
+    margin-left: 50px;
+    color: black;
+    
+    text-align: center;
+    box-shadow: black;
+    padding: 20px 0 30px 0;
+    background: aqua;
+ }
+ .contact-box i{
+     font-size: 32px;
+     color: white;
+     font-weight: bold;
+     margin: 10px 0;
+     
+     margin-left: 30px;
+ }
+.contact-box p{
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+} 
+.contact button{
+    background: aqua;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.contact button:hover{
+    background: black;
+    color: white;
+}
+/*End of Contact Form*/
+/*footer*/
+.footer{
+    text-align: center;
+    font-size: 15px;
+    background: aqua;
+}
+.footer .btn-back{
+    background: white;
+    color: aqua; 
+}
+.footer .btn-back:hover{
+    background: rgb(0, 0, 0);
+    color: aqua
+}
+.footer .text{
+    color:black;
+    
+}
+.btn-social i{
+    font-size: 22px;
+
+}
+/*End of footer*/
+/*Booking Appointment*/
+#login{
+    margin-left: 400px;
+    color: black;
+}
+#login a{
+    text-decoration: none;
+}
